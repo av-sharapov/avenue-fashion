@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/adaptive.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="currency">
+                        <label class="currency__label" for="currency__select">Currency : </label>
+                        <select class="currency__select" id="currency__select">
+                            <option class="currency__option">GBP</option>
+                            <option class="currency__option">USD</option>
+                            <option class="currency__option">EUR</option>
+                        </select>
+                    </div>
+                    <div class="registration">
+                        <a href="registration.html">Register</a>
+                        <a href="registration.html">Sign In</a>
+                    </div>
+                    <div class="shopcart">
+                        <a href="index.html"> 
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            empty
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><b>Avenue</b> Fashion</a>
+                </div>
+                <div class="container">
+                    <nav class="navbar__navigation">
+                        <ul class="navbar__list">    
+                            <li class="navbar__item">
+                                <a href="">Mens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown">
+                                    <div class="dropdown-inner">
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">casuals</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+											<li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Sportswear</a></li>
+											<li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+											<li><a class='dropdown-menu__link'>T-Shirts</a></li>
+										</ul>
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">Formal</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a class='dropdown-menu__link'>Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Suits</a></li>
+											<li><a class='dropdown-menu__link'>Trousers</a></li>
+										</ul>
+									</div>
+									<div class="dropdown__discount">
+										<span>Autumn sale!</span>
+										<span>up to 50% off</span>
+									</div>
+                                </div>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="">Womens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown">
+                                    <div class="dropdown-inner">
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">casuals</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+											<li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Sportswear</a></li>
+											<li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+											<li><a class='dropdown-menu__link'>T-Shirts</a></li>
+										</ul>
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">Formal</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a class='dropdown-menu__link'>Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Suits</a></li>
+											<li><a class='dropdown-menu__link'>Trousers</a></li>
+										</ul>
+									</div>
+									<div class="dropdown__discount">
+										<span>Autumn sale!</span>
+										<span>up to 50% off</span>
+									</div>
+                                </div>
+                            </li>
+                            <li class="navbar__item"><a href="">The brand</a></li>
+                            <li class="navbar__item"><a href="product.html">Local stores</a></li>
+                            <li class="navbar__item">
+                                <a href="">Look book<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown">
+                                    <div class="dropdown-inner">
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">casuals</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+											<li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Sportswear</a></li>
+											<li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+											<li><a class='dropdown-menu__link'>T-Shirts</a></li>
+										</ul>
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">Formal</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a class='dropdown-menu__link'>Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Suits</a></li>
+											<li><a class='dropdown-menu__link'>Trousers</a></li>
+										</ul>
+									</div>
+									<div class="dropdown__discount">
+										<span>Autumn sale!</span>
+										<span>up to 50% off</span>
+									</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>  
+                </div>
+                <form class="searchbox">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__title"><b>Product</b> View</h2>
+            <h3 class="banner__subtitle">
+                Mens - Casuals - Hoodies & Sweatshirts -
+                <span class="banner__subtitle-product">Ave Classic Sweatshirt</span>
+            </h3>
+        </section>
+        <div class="product-block">
+            <div class="container">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="gallery">
+                            <div class="gallery__slides">
+                                <img class="gallery__img" src="img/product/product.jpg">
+                            </div>
+                            <a class="gallery__arrow gallery__prev" data-slide="-1">&#10094;</a>
+                            <a class="gallery__arrow gallery__next" data-slide="1"> &#10095;</a>
+                        </div>
+                        <div class="specification">
+                            <div class="specification-header">
+                                <div class="specification__title">Ave Classic Sweatshirt</div>
+                                <div class="specification__review-share">
+                                    <div class="review">
+                                        <div class="review__stars">
+                                            <svg style="display: none;">
+                                                <symbol id="star" viewbox="0 -10 511.98685 511">
+                                                    <g>
+                                                        <path d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0" />
+                                                    </g>
+                                                </symbol>
+                                            </svg>
+                                            <svg class="review__star">
+                                                <use xlink:href="#star"></use>
+                                            </svg>
+                                            <svg class="review__star">
+                                                <use xlink:href="#star"></use>
+                                            </svg>
+                                            <svg class="review__star">
+                                                <use xlink:href="#star"></use>
+                                            </svg>
+                                            <svg class="review__star">
+                                                <use xlink:href="#star"></use>
+                                            </svg>
+                                            <svg class="review__star review__star-empty">
+                                                <use xlink:href="#star"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="review__count">
+                                            <p>3 Review(s)</p>
+                                        </div>
+                                        <div class="review__add">
+                                            <a class="review__link" href="#">Add a Review</a>
+                                        </div>
+                                    </div>
+                                    <div class="share">
+                                        <div class="share__item">Share:</div>
+                                        <a href="#" class="share__link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="#" class="share__link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="#" class="share__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        <a href="#" class="share__link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                        <a href="#" class="share__link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="#" class="share__link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="specification__price">
+                                    <span class="specification__price-first">
+                                        <span class="specification__currency">
+                                            <sup>£</sup> 
+                                        </span>
+                                        <span class="specification__price-old">107</span>
+                                    </span>
+                                    <span class="specification__price-second">
+                                        <span class="specification__currency">
+                                            <sup>£</sup> 
+                                        </span>
+                                        <span class="specification__price-now">89.99</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="information">
+                                <div class="information__item">
+                                    <div class="information__name">Availability:</div>
+                                    <div class="information__data">In stock</div>
+                                </div>
+                                <div class="information__item">
+                                    <div class="information__name">Product code:</div>
+                                    <div class="information__data">#499577</div>
+                                </div>
+                                <div class="information__item">
+                                    <div class="information__name">Tags:</div>
+                                    <div class="information__data information__tags">Classic, Casual, V-neck, Loose</div>
+                                </div>  
+                            </div>
+                            <div class="specification__content">
+                                <p class="specification__text">
+                                    Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nuncm id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.
+                                </p>
+                                <ul class="specification__list">
+                                    <li class="specification__list-item">Elasticated cuff</li>
+                                    <li class="specification__list-item">Casual fit</li>
+                                    <li class="specification__list-item">100% Cotton</li>
+                                    <li class="specification__list-item">Free shipping with 4 days delivery</li>
+                                </ul>
+                            </div>
+                            <div class="select-block">
+                                <div class="select__colour">
+                                    <h2 class="select__label">Colour</h2>
+                                    <div class="select">
+                                        <select class="select__list" name="select__colour">
+                                            <option class="select__option select__option-empty">Select Colour</option>
+                                            <option class="select__option">Black</option>
+                                            <option class="select__option">White</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="select__size">
+                                    <h2 class="select__label">Size</h2>
+                                    <div class="select">
+                                        <select class="select__list" name="select__size">
+                                            <option class="select__option select__option-empty">Select Size</option>
+                                            <option class="select__option">M</option>
+                                            <option class="select__option">L</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="select__quantity">
+                                    <div class="quantity">
+                                        <h2 class="quantity__title">QTY</h2>
+                                        <div class="clicks">
+                                            <div class="clicks__quantity">
+                                                <div class="clicks__number">1</div>
+                                            </div>
+                                            <div class="clicks__controls">
+                                                <div class="clicks__button clicks__increase"></div>
+                                                <div class="clicks__button clicks__decrease"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specification__add">
+                                <button class="button specification__add-button">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Add to cart
+                                </button>
+                                <button class="button specification__add-button">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    Add to lookbook
+                                </button>
+                            </div>
+                            <div class="compare">
+                                <div class="compare__icon">
+                                    <i class="fa fa-compress" aria-hidden="true"></i>
+                                </div>
+                                <div class="compare__text">Add to compare</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-bottom">
+                        <div class="tabs">
+                            <div class="tabs__nav">
+                                <a href="#" class="tabs__link tab-selected">Description</a>
+                                <a href="#" class="tabs__link">Video</a>
+                                <a href="#" class="tabs__link">Size & Specs</a>
+                                <a href="#" class="tabs__link">Delivery & Returns</a>
+                                <a href="#" class="tabs__link">Reviews</a>
+                            </div>
+                            <div class="tabs__content">
+                                <div class="tabs__item tab-active" id="description">
+                                    <h3 class="tabs__title">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
+                                    <p class="tabs__text">
+                                        Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellum.
+                                    </p>
+                                    <p class="tabs__text">
+                                        Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
+                                    </p>
+                                </div>
+                                <div class="tabs__item" id="video">
+                                    <h3 class="tabs__title"></h3>
+                                    <p class="tabs__text"></p>
+                                </div>
+                                <div class="tabs__item" id="size-and-specs">
+                                    <h3 class="tabs__title"></h3>
+                                    <p class="tabs__text"></p>
+                                </div>
+                                <div class="tabs__item" id="delivery-and-returns">
+                                    <h3 class="tabs__title"></h3>
+                                    <p class="tabs__text"></p>
+                                </div>
+                                <div class="tabs__item" id="reviews">
+                                    <h3 class="tabs__title"></h3>
+                                    <p class="tabs__text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="info">
+                    <ul class="footerinfo">
+                        <li><h1>Information</h1></li>
+                        <li id="selected"><a href="">The brand</a></li>
+                        <li><a href="">Local stores</a></li>
+                        <li><a href="">Customer service</a></li>
+                        <li><a href="">Privacy & cookies</a></li>
+                        <li><a href="">Site map</a></li>
+                        <li>&nbsp</li>
+                        <li><h1>Why buy from us</h1></li>
+                        <li>Shipping & returns</li>
+                        <li>Secure shopping</li>
+                        <li>Testimonials</li>
+                        <li id="selected">Award winning</li>
+                        <li id="selected">Ethical trading</li>
+                        <li>&nbsp</li>
+                        <li><h1>Your account</h1></li>
+                        <li><a href="">Sing in</a></li>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">View cart</a></li>
+                        <li><a href="">View your lookbook</a></li>
+                        <li><a href="">Track an order</a></li>
+                        <li><a href="">Update information</a></li>
+                        <li><h1>Lookbook</h1></li>
+                        <li><a href="">Latest posts</a></li>
+                        <li><a href="">Men's lookbook</a></li>
+                        <li><a href="">Women's lookbook</a></li>
+                        <li><a href="">Lookbooks RSS feed</a></li>
+                        <li><a href="">View your lookbook</a></li>
+                        <li><a href="">Delete your lookbook</a></li>
+                        <li><h1>Contact details</h1></li>
+                        <li id="address">Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</li>
+                        <li>Telephone: 0123-456-789</li>
+                        <li>Email: support@yourwebsite.com</li>
+                        <li>&nbsp</li>
+                        <li>&nbsp</li>
+                    </ul>
+                    <div class="infobanner">
+                        <div class="banner-award">
+                            <b>Award Winner</b><br>
+                            Fashion Awards 2016
+                        </div>
+                        <div class="banner-networks">
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+            <section class="copyright">
+                <div class="container">
+                    <div class="footer__copyright">
+                        © 2016 Avenue Fashion™
+                    </div>
+                    <div class="footer__design">
+                        <span class="footer__span">Design by RobbyDesigns.com</span>
+                        <span class="footer__span">Dev by Loremipsum.com</span>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

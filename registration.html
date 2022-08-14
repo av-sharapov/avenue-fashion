@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/adaptive.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="currency">
+                        <label class="currency__label" for="currency__select">Currency : </label>
+                        <select class="currency__select" id="currency__select">
+                            <option class="currency__option">GBP</option>
+                            <option class="currency__option">USD</option>
+                            <option class="currency__option">EUR</option>
+                        </select>
+                    </div>
+                    <div class="registration">
+                        <a href="registration.html">Register</a>
+                        <a href="registration.html">Sign In</a>
+                    </div>
+                    <div class="shopcart">
+                        <a href="index.html"> 
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            empty
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><b>Avenue</b> Fashion</a>
+                </div>
+                <div class="container">
+                    <nav class="navbar__navigation">
+                        <ul class="navbar__list">    
+                            <li class="navbar__item">
+                                <a href="">Mens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown">
+                                    <div class="dropdown-inner">
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">casuals</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+											<li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Sportswear</a></li>
+											<li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+											<li><a class='dropdown-menu__link'>T-Shirts</a></li>
+										</ul>
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">Formal</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a class='dropdown-menu__link'>Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Suits</a></li>
+											<li><a class='dropdown-menu__link'>Trousers</a></li>
+										</ul>
+									</div>
+									<div class="dropdown__discount">
+										<span>Autumn sale!</span>
+										<span>up to 50% off</span>
+									</div>
+                                </div>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="">Womens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown">
+                                    <div class="dropdown-inner">
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">casuals</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+											<li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Sportswear</a></li>
+											<li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+											<li><a class='dropdown-menu__link'>T-Shirts</a></li>
+										</ul>
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">Formal</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a class='dropdown-menu__link'>Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Suits</a></li>
+											<li><a class='dropdown-menu__link'>Trousers</a></li>
+										</ul>
+									</div>
+									<div class="dropdown__discount">
+										<span>Autumn sale!</span>
+										<span>up to 50% off</span>
+									</div>
+                                </div>
+                            </li>
+                            <li class="navbar__item"><a href="">The brand</a></li>
+                            <li class="navbar__item"><a href="product.html">Local stores</a></li>
+                            <li class="navbar__item">
+                                <a href="">Look book<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown">
+                                    <div class="dropdown-inner">
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">casuals</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+											<li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Sportswear</a></li>
+											<li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+											<li><a class='dropdown-menu__link'>T-Shirts</a></li>
+										</ul>
+										<ul class='dropdown-menu'>
+											<div class="dropdown__title">Formal</div>
+											<li><a class='dropdown-menu__link'>Jackets</a></li>
+											<li><a class='dropdown-menu__link'>Shirts</a></li>
+											<li><a class='dropdown-menu__link'>Suits</a></li>
+											<li><a class='dropdown-menu__link'>Trousers</a></li>
+										</ul>
+									</div>
+									<div class="dropdown__discount">
+										<span>Autumn sale!</span>
+										<span>up to 50% off</span>
+									</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>  
+                </div>
+                <form class="searchbox">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__title"><b>Welcome</b> To Ave</h2>
+            <h3 class="banner__subtitle">Sign In or Register</h3>
+        </section>
+        <div class="registration-block">
+            <div class="container">
+                <div class="registration-forms">
+                    <div class="sign-in">
+                        <div class="sign-in__title">Sign In</div>
+                        <form class="form" action="">
+                            <div class="form__group">
+                                <input class="form__input form__input-wrong" type="text" placeholder="Your Email..">
+                            </div>
+                            <div class="form__group">
+                                <input class="form__input" type="password" placeholder="Your password..">
+                            </div>
+                            <div class="form__group form__group-button">
+                                <button class="button" type="submit">Sign In</button>
+                                <div class="form__group form__group-link">
+                                    <a href="#" class="form__link">Forgot your Password <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sign-up">
+                        <div class="sign-up__title">Register</div>
+                        <form action="" class="form">
+                            <div class="form__group">
+                                <input class="form__input" type="text" placeholder="Your Email..">
+                            </div>
+                            <div class="form__group">
+                                <input class="form__input" type="password" placeholder="Your password..">
+                            </div>
+                            <div class="form__group">
+                                <input class="form__input" type="password" placeholder="Confirm password..">
+                            </div>
+                            <div class="form__group form__group-checkbox">
+                                <input type="checkbox" class="form__checkbox" id="subscription">
+                                <label for="subscription" class="form__label">
+                                    Sign up for exclusive updates, discounts, new arrivals, contests, and more!
+                                </label>
+                            </div>
+                            <div class="form__group form__group-button">
+                                <button class="button" type="submit">Create Account</button>
+                                <div class="form__group form__group-link">
+                                    <span class="form__agree">By clicking 'Create Account', you agree to our</span>
+                                    <a href="#" class="form__link">Privacy Policy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="info">
+                    <ul class="footerinfo">
+                        <li><h1>Information</h1></li>
+                        <li id="selected"><a href="">The brand</a></li>
+                        <li><a href="">Local stores</a></li>
+                        <li><a href="">Customer service</a></li>
+                        <li><a href="">Privacy & cookies</a></li>
+                        <li><a href="">Site map</a></li>
+                        <li>&nbsp</li>
+                        <li><h1>Why buy from us</h1></li>
+                        <li>Shipping & returns</li>
+                        <li>Secure shopping</li>
+                        <li>Testimonials</li>
+                        <li id="selected">Award winning</li>
+                        <li id="selected">Ethical trading</li>
+                        <li>&nbsp</li>
+                        <li><h1>Your account</h1></li>
+                        <li><a href="">Sing in</a></li>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">View cart</a></li>
+                        <li><a href="">View your lookbook</a></li>
+                        <li><a href="">Track an order</a></li>
+                        <li><a href="">Update information</a></li>
+                        <li><h1>Lookbook</h1></li>
+                        <li><a href="">Latest posts</a></li>
+                        <li><a href="">Men's lookbook</a></li>
+                        <li><a href="">Women's lookbook</a></li>
+                        <li><a href="">Lookbooks RSS feed</a></li>
+                        <li><a href="">View your lookbook</a></li>
+                        <li><a href="">Delete your lookbook</a></li>
+                        <li><h1>Contact details</h1></li>
+                        <li id="address">Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</li>
+                        <li>Telephone: 0123-456-789</li>
+                        <li>Email: support@yourwebsite.com</li>
+                        <li>&nbsp</li>
+                        <li>&nbsp</li>
+                    </ul>
+                    <div class="infobanner">
+                        <div class="banner-award">
+                            <b>Award Winner</b><br>
+                            Fashion Awards 2016
+                        </div>
+                        <div class="banner-networks">
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+            <section class="copyright">
+                <div class="container">
+                    <div class="footer__copyright">
+                        © 2016 Avenue Fashion™
+                    </div>
+                    <div class="footer__design">
+                        <span class="footer__span">Design by RobbyDesigns.com</span>
+                        <span class="footer__span">Dev by Loremipsum.com</span>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

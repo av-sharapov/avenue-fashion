@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="container">
+                <div class="currency">
+                    <label class="currency__label" for="currency__select">Currency : </label>
+                    <select class="currency__select" id="currency__select">
+                        <option class="currency__option">GBP</option>
+                        <option class="currency__option">USD</option>
+                        <option class="currency__option">EUR</option>
+                    </select>
+                </div>
+                <div class="registration">
+                    <a href="registration.html">Register</a>
+                    <a href="registration.html">Sign In</a>
+                </div>
+                <div class="shopcart">
+                    <a href="index.html"> 
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        empty
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar catalog-intro">
+            <div class="logo">
+                <a href="index.html"><b>Avenue</b> Fashion</a>
+            </div>
+            <div class="container">
+                <nav class="navbar__navigation">
+                    <ul class="navbar__list">    
+                        <li class="navbar__item">
+                            <a href="">Mens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <div class="dropdown">
+                                <div class="dropdown-inner">
+                                    <ul class='dropdown-menu'>
+                                        <div class="dropdown__title">casuals</div>
+                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Sportswear</a></li>
+                                        <li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+                                        <li><a class='dropdown-menu__link'>T-Shirts</a></li>
+                                    </ul>
+                                    <ul class='dropdown-menu'>
+                                        <div class="dropdown__title">Formal</div>
+                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a class='dropdown-menu__link'>Shirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Suits</a></li>
+                                        <li><a class='dropdown-menu__link'>Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__discount">
+                                    <span>Autumn sale!</span>
+                                    <span>up to 50% off</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="">Womens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <div class="dropdown">
+                                <div class="dropdown-inner">
+                                    <ul class='dropdown-menu'>
+                                        <div class="dropdown__title">casuals</div>
+                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Sportswear</a></li>
+                                        <li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+                                        <li><a class='dropdown-menu__link'>T-Shirts</a></li>
+                                    </ul>
+                                    <ul class='dropdown-menu'>
+                                        <div class="dropdown__title">Formal</div>
+                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a class='dropdown-menu__link'>Shirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Suits</a></li>
+                                        <li><a class='dropdown-menu__link'>Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__discount">
+                                    <span>Autumn sale!</span>
+                                    <span>up to 50% off</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item"><a href="">The brand</a></li>
+                        <li class="navbar__item"><a href="product.html">Local stores</a></li>
+                        <li class="navbar__item">
+                            <a href="">Look book<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <div class="dropdown">
+                                <div class="dropdown-inner">
+                                    <ul class='dropdown-menu'>
+                                        <div class="dropdown__title">casuals</div>
+                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Polo Shirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Sportswear</a></li>
+                                        <li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
+                                        <li><a class='dropdown-menu__link'>T-Shirts</a></li>
+                                    </ul>
+                                    <ul class='dropdown-menu'>
+                                        <div class="dropdown__title">Formal</div>
+                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a class='dropdown-menu__link'>Shirts</a></li>
+                                        <li><a class='dropdown-menu__link'>Suits</a></li>
+                                        <li><a class='dropdown-menu__link'>Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__discount">
+                                    <span>Autumn sale!</span>
+                                    <span>up to 50% off</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>  
+            </div>
+            <form class="searchbox">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            <div class="intro-button">
+                <a href="#" class="button">Shop Men's Collection</a>
+            </div>
+        </div>
+    </header>
+    <div class="items">
+        <div class="items-container">
+            <div class="items__header">
+                <a href="#" class="items__category">Popular</a>
+                <a href="#" class="items__category">New Arrivals</a>
+                <a href="#" class="items__category">Best Sellers</a>
+                <a href="#" class="items__category">Special Offers</a>
+                <a href="#" class="items__category">Coming Soon</a>
+            </div>
+            <section class="items-list">
+                <article class="shop-item">
+                    <div class="price">&#163;89.99</div>
+                    <img src="./img/catalog/photo 6.png" alt="Men's T-Shirt - black">
+                    <div class="shop-item__desc">
+                        <h3>Item name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                        <div class="shop-item__buttons">
+                            <button class="shop-item__button">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-compress" aria-hidden="true"></i>    
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="shop-item">
+                    <div class="price">&#163;47.50</div>
+                    <img src="./img/catalog/photo 5.png" alt="Women's T-Shirt - white, Marilyn Monroe">
+                    <div class="shop-item__desc">
+                        <h3>Item name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                        <div class="shop-item__buttons">
+                            <button class="shop-item__button">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-compress" aria-hidden="true"></i>    
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="shop-item">
+                    <div class="price"><s>&#163;107</s> &#163;89.99</div>
+                    <img src="./img/catalog/photo 4.png" alt="Men's Sweatshirt - black">
+                    <div class="shop-item__desc">
+                        <h3>Item name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                        <div class="shop-item__buttons">
+                            <button class="shop-item__button">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-compress" aria-hidden="true"></i>    
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="shop-item">
+                    <div class="price">&#163;69.95</div>
+                    <img src="./img/catalog/photo 3.png" alt="Men's T-Shirt - blue">
+                    <div class="shop-item__desc">
+                        <h3>Item name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                        <div class="shop-item__buttons">
+                            <button class="shop-item__button">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-compress" aria-hidden="true"></i>    
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="shop-item">
+                    <div class="price">&#163;29.95</div>
+                    <img src="./img/catalog/photo 2.png" alt="Women's T-Shirt - red">
+                    <div class="shop-item__desc">
+                        <h3>Womens burnt orange casual tee </h3>
+                        <p>Classic casual t-shirt for women on the move.<br>100% cotton.</p>
+                        <div class="shop-item__buttons">
+                            <button class="shop-item__button">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-compress" aria-hidden="true"></i>    
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="shop-item">
+                    <div class="price">&#163;34.79</div>
+                    <img src="./img/catalog/photo.png" alt="Women's T-Shirt - black">
+                    <div class="shop-item__desc">
+                        <h3>Item name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                        <div class="shop-item__buttons">
+                            <button class="shop-item__button">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="shop-item__button">
+                                <i class="fa fa-compress" aria-hidden="true"></i>    
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <div class="lookbook__list">
+            <div class="lookbook__item">
+                <img src="./img/catalog/REPLACE.png">
+                <div class="lookbook__desc">
+                    <h3><b>Men's</b><br>lookbook</h3>
+                    <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.<br>Elementum metus facilisis ut phasellu.</p>
+                    <a href="#" class="button">View now</a>
+                </div>
+            </div>
+            <div class="lookbook__item">
+                <img src="./img/catalog/REPLACE copy.png">
+                <div class="lookbook__desc">
+                    <h3><b>Women's</b><br>lookbook</h3>
+                    <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.</p>
+                    <a href="#" class="button">View now</a>
+                </div>
+            </div>
+            <div class="lookbook__item">
+                <img src="./img/catalog/photo silhouette.png">
+                <div class="lookbook__desc">
+                    <h3><b>Your</b><br>lookbook</h3>
+                    <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.</p>
+                    <a href="#" class="button">View now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="info">
+                <ul class="footerinfo">
+                    <li><h1>Information</h1></li>
+                    <li id="selected"><a href="">The brand</a></li>
+                    <li><a href="">Local stores</a></li>
+                    <li><a href="">Customer service</a></li>
+                    <li><a href="">Privacy & cookies</a></li>
+                    <li><a href="">Site map</a></li>
+                    <li>&nbsp</li>
+                    <li><h1>Why buy from us</h1></li>
+                    <li>Shipping & returns</li>
+                    <li>Secure shopping</li>
+                    <li>Testimonials</li>
+                    <li id="selected">Award winning</li>
+                    <li id="selected">Ethical trading</li>
+                    <li>&nbsp</li>
+                    <li><h1>Your account</h1></li>
+                    <li><a href="">Sing in</a></li>
+                    <li><a href="">Register</a></li>
+                    <li><a href="">View cart</a></li>
+                    <li><a href="">View your lookbook</a></li>
+                    <li><a href="">Track an order</a></li>
+                    <li><a href="">Update information</a></li>
+                    <li><h1>Lookbook</h1></li>
+                    <li><a href="">Latest posts</a></li>
+                    <li><a href="">Men's lookbook</a></li>
+                    <li><a href="">Women's lookbook</a></li>
+                    <li><a href="">Lookbooks RSS feed</a></li>
+                    <li><a href="">View your lookbook</a></li>
+                    <li><a href="">Delete your lookbook</a></li>
+                    <li><h1>Contact details</h1></li>
+                    <li id="address">Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</li>
+                    <li>Telephone: 0123-456-789</li>
+                    <li>Email: support@yourwebsite.com</li>
+                    <li>&nbsp</li>
+                    <li>&nbsp</li>
+                </ul>
+                <div class="infobanner">
+                    <div class="banner-award">
+                        <b>Award Winner</b><br>
+                        Fashion Awards 2016
+                    </div>
+                    <div class="banner-networks">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </div>
+                </div>               
+            </div>
+        </div>
+        <section class="copyright">
+            <div class="container">
+                <div class="footer__copyright">
+                    © 2016 Avenue Fashion™
+                </div>
+                <div class="footer__design">
+                    <span class="footer__span">Design by RobbyDesigns.com</span>
+                    <span class="footer__span">Dev by Loremipsum.com</span>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
