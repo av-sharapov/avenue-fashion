@@ -55,7 +55,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  height: 2rem;
   color: #999;
   background-color: #333;
 }
@@ -90,6 +89,15 @@ ul {
 
 .registration a:hover {
   color: #00c8c8;
+}
+
+.adaptive-topbar {
+  display: none;
+  font-size: 25px;
+}
+
+.adaptive-topbar a {
+  padding: 0.4em 0.7em;
 }
 
 .currency {
@@ -170,6 +178,7 @@ ul {
   left: 3.5%;
   margin-top: 1.2em;
   font-size: 2em;
+  white-space: nowrap;
 }
 
 .logo b {
@@ -215,6 +224,10 @@ ul {
   position: absolute;
   right: 15%;
   bottom: 15%;
+}
+
+.adaptive-menu {
+  display: none;
 }
 
 /*======================*/
@@ -1147,7 +1160,7 @@ ul {
 
 .footerinfo {
   display: grid;
-  grid-template-columns: repeat(5, 210px);
+  grid-template-columns: repeat(5, 220px);
   grid-template-rows: repeat(1, auto); 
   justify-content: space-between;
   padding-top: 3em;
@@ -1174,6 +1187,10 @@ ul {
   font-weight: 700;
   margin-bottom: 1em;
   color: #575153;
+}
+
+.footerinfo a:hover {
+  color: #11cbcb;
 }
 
 .infobanner {
@@ -1215,8 +1232,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  height: 2rem;
-  padding: 15px 0;
+  padding: 8px 0;
   color: #777;
   background-color: #333;
 }
