@@ -122,7 +122,7 @@ ul {
 .searchbox {
   position: absolute;
   right: 70px;
-  top: 70px;
+  top: 70px; 
   color: #575153;
 }
 
@@ -192,6 +192,7 @@ ul {
 
 .navbar__list {
   display: flex;
+  position: relative;
   float: right;
   margin-top: 3em;
   margin-bottom: 2.5em;
@@ -312,7 +313,7 @@ ul {
 .banner {
   padding: 160px 0;
   background: url("../img/intro.png") no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .banner__title,
@@ -1140,17 +1141,23 @@ ul {
 /*======================*/
 /*======================*/
 
-footer {
-  width: 100vw;
-  background: #f8f8f8;
+.footer {
+  background-color: #f8f8f8;
 }
 
 .footerinfo {
-  column-count: 5;
+  display: grid;
+  grid-template-columns: repeat(5, 210px);
+  grid-template-rows: repeat(1, auto); 
+  justify-content: space-between;
+  padding-top: 3em;
+}
+
+.footerinfo-list {
   padding-bottom: 4em;
-  padding-top: 5em;
   line-height: 2em;
   list-style-type: none;
+  padding-left: 0;
 }
 
 #address {
@@ -1161,7 +1168,7 @@ footer {
   color: #11cbcb;
 }
 
-.footerinfo h1 {
+.footerinfo h4 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
