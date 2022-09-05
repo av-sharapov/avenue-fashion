@@ -1,31 +1,110 @@
+@media (max-width: 1698.98px) {
+    .searchbox {
+        right: unset;
+        left: calc(100vh - 55vh);
+        top: 5px;
+        background-color: #f8f8f8;
+    }
+    .searchbox input {
+        padding: .2rem .3rem;
+        border: 1px solid #ababab;
+    }
+    .lookbook__list {
+        gap: 0;
+    }
+    .lookbook__item {
+        padding-right: 0.25rem;
+        text-align: left;
+    }
+}
+
 @media (max-width: 1199.98px) {
     .container {
         width: 900px;
     }
+
     .logo,
+    .searchbox,
     .navbar__navigation {
         display: flex;
         justify-content: center;
         position: relative;
     }
+
     .navbar {
-        flex-direction:column;
+        flex-direction: column;
     }
+
     .logo {
         left: 0;
     }
-    .searchbox {
-        left: 50;
-        right: 50;
-        margin-bottom: 2em;
+
+    .navbar__list {
+        margin-top: 1.5em;
+        margin-bottom: 1.2em;
     }
+
+    .searchbox {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 20px;
+    }
+
+    .searchbox button {
+        position: relative;
+        margin-left: -30px;
+    }
+
     .banner {
         height: 300px;
         padding: 70px 0;
     }
+
+    .register .button {
+        padding: 20px;
+    }
+
+    .items__header {
+        padding-left: 2rem;
+    }
+
+    .items-list {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        padding: 0 2em;
+    }
+
+    .shop-item:nth-of-type(3) {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .shop-item:nth-of-type(4) {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .lookbook__list {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .lookbook__list img {
+        padding-right: 4rem;
+        padding-left: 5rem;
+    }
+
+    .lookbook__list p {
+        padding-right: 5rem;
+    }
+
+    .lookbook__list .button {
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+
     .footerinfo {
         grid-template-columns: repeat(5, 170px);
-        grid-template-rows: repeat(1, auto); 
+        grid-template-rows: repeat(1, auto);
     }
 }
 
@@ -33,12 +112,15 @@
     .container {
         width: 100%;
     }
+
     .banner__title {
         font-size: 40px;
     }
+
     .banner__subtitle {
         font-size: 24px;
     }
+
     .footerinfo {
         grid-template-columns: repeat(3, 170px);
         grid-template-rows: repeat(2, auto);
@@ -52,38 +134,89 @@
         height: 230px;
         padding: 50px 0;
     }
+
     .banner__title,
     .banner__subtitle {
         letter-spacing: 3px;
     }
+
     .banner__title {
         margin-bottom: 25px;
     }
+
     .content__title {
         font-size: 16px;
     }
+
     .content__subtitle {
         font-size: 11px;
     }
+
     .content__caption {
         font-size: 13px;
     }
+    .registration-forms {
+        flex-wrap: wrap;
+    }
+    .sign-in {
+        width: 100%;
+        border-right: none;
+    }
+    .sign-up {
+        width: 100%;
+    }
+
+    .items__header {
+        display: none;
+    }
+
+    .items__header-adaptive {
+        display: flex;
+    }
+
+    .items-list {
+        padding: 0 4em;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+
+    .shop-item:nth-of-type(3) {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .shop-item:nth-of-type(4) {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .lookbook__list .button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
     .footerinfo {
         padding-right: 0;
         padding-left: 0;
     }
+
+    .footerinfo-item:nth-of-type(5) {
+        grid-area: 2 / 2 / 3 / 4;
+    }
+
     .copyright .container {
         flex-direction: column;
     }
+
     .footer__copyright {
         display: flex;
         justify-content: center;
     }
+
     .footer__design {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .footer__span {
         display: flex;
         justify-content: center;
@@ -94,70 +227,143 @@
     .currency__label {
         display: none;
     }
+
     .currency__select {
         font-size: 15px;
         font-weight: 700;
     }
+
     .registration,
     .shopcart {
         display: none;
     }
+
     .adaptive-topbar {
         display: flex;
     }
+
+    .navbar {
+        flex-direction: unset;
+        justify-content: space-between;
+    }
+
     .navbar__navigation,
     .navbar .container,
     .searchbox {
         display: none;
     }
+
     .logo {
         justify-content: left;
         margin: 20px 15px;
         font-size: 22px;
     }
+
     .adaptive-menu {
         display: flex;
         justify-content: right;
         font-size: 40px;
         padding: 15px;
     }
+
     .banner {
         height: 190px;
         padding: 30px 0;
     }
+
     .banner__title {
         font-size: 35px;
         margin-bottom: 15px;
     }
+
     .banner__subtitle {
         font-size: 18px;
     }
+
     .content {
         flex-wrap: wrap;
     }
+
     .content__column {
         width: 100%;
     }
+
+    .form__group-link {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .form__group-button {
+        flex-wrap: wrap;
+    }
+
+    .items {
+        padding-bottom: 0;
+    }
+
+    .register .button {
+        padding: 10px;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+
+    .items-list {
+        padding: 0 1rem;
+    }
+
+    .lookbook__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lookbook__desc {
+        padding-left: 2rem;
+    }
+
+    .lookbook__list img {
+        display: none;
+    }
+
+    .lookbook__list h3 {
+        margin-top: 1rem;
+    }
+
+    .lookbook__list p {
+        padding-right: 3rem;
+    }
+
+    .lookbook__list .button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
     .footerinfo {
         justify-content: center;
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(5, auto);
     }
+
+    .footerinfo-item:nth-of-type(5) {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
     .footerinfo h4 {
         display: flex;
         justify-content: center;
         font-size: 15px;
     }
+
     .footerinfo-list {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-transform: uppercase;   
+        text-transform: uppercase;
     }
+
     .footerinfo-list li {
         display: flex;
         justify-content: center;
     }
+
     .infobanner {
         display: grid;
         grid-template-columns: repeat(1, auto);
@@ -169,71 +375,17 @@
     .banner {
         padding: 45px 0;
     }
+
     .banner__title,
     .banner__subtitle {
         letter-spacing: 0;
     }
+
     .banner__title {
         font-size: 32px;
     }
+
     .banner__subtitle {
         font-size: 16px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-@media (max-width: 770px) {
-    .registration-forms {
-        flex-wrap: wrap;
-    }
-}*/
-
-/*
-@media (max-width: 770px) {
-    .sign-in {
-        width: 100%;
-        border-right: none;
-    }
-}
-
-@media (max-width: 770px) {
-    .sign-up {
-        width: 100%;
-    }
-}
-
-@media (max-width: 430px) {
-    .form__group-link {
-        width: 100%;
-        margin: 15px 0;
-    }
-    .form__group-button {
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 1200px) {
-    .register .button {
-        padding: 20px;
-    }
-}
-
-@media (max-width: 470px) {
-    .register .button {
-        padding: 10px;
-        letter-spacing: 0;
-        word-spacing: 0;
-    }
-} */
