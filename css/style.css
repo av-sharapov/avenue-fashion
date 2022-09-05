@@ -24,16 +24,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
 .container {
   width: 1200px;
   margin-left: auto;
@@ -130,7 +120,7 @@ ul {
 .searchbox {
   position: absolute;
   right: 70px;
-  top: 70px; 
+  top: 72px; 
   color: #575153;
 }
 
@@ -205,11 +195,7 @@ ul {
   float: right;
   margin-top: 3em;
   margin-bottom: 2.5em;
-}
-
-.navbar__item {
-  position: relative;
-  margin-left: 2em;
+  gap: 2em;
 }
 
 .navbar__item:hover {
@@ -996,6 +982,32 @@ ul {
   border-top: 1px solid #eee;
 }
 
+.items__header-adaptive {
+  display: none;
+}
+
+.items__header-adaptive i {
+  font-size: 18px;
+  margin-left: -66px;
+  margin-top: 2px;
+}
+
+.items__header-select {
+  display: block;
+  margin: 0 3rem;
+  font-family: inherit;
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.1em;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
 .items__category {
   text-transform: uppercase;
   margin-right: 20px;
@@ -1121,8 +1133,8 @@ ul {
 
 .lookbook__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;  
 }
 
 .lookbook__item {
