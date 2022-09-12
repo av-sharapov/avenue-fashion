@@ -320,11 +320,19 @@
     .navbar__list {
         display: none;
         position: absolute;
-        top: 52px;
+        top: 40px;
         background: rgb(245,246,246);
         box-shadow: #ccc;
         width: 100vw;
         box-shadow: 0 4px 2px -2px rgba(36,36,36,0.17);
+    }
+
+    .navbar__item br {
+        display: none;
+    }
+      
+    .navbar__item i {
+        margin-left: 3px;
     }
 
     .navbar__item {
@@ -348,6 +356,10 @@
     }
 
     .navbar__burger {
+        display: block;
+    }
+
+    .navbar__burger-catalog {
         display: block;
     }
 
