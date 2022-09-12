@@ -10,65 +10,66 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/menu.js"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="topbar">
-            <div class="container">
-                <div class="currency">
-                    <label class="currency__label" for="currency__select">Currency : </label>
-                    <select class="currency__select" id="currency__select">
-                        <option class="currency__option">GBP</option>
-                        <option class="currency__option">USD</option>
-                        <option class="currency__option">EUR</option>
-                    </select>
-                </div>
-                <div class="registration">
-                    <a href="registration.html">Register</a>
-                    <a href="catalog.html">Sign In</a>
-                </div>
-                <div class="shopcart">
-                    <a href="index.html"> 
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        empty
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <div class="adaptive-topbar">
-                    <a href="registration.html"><i class="fa fa-user" aria-hidden="true"></i></a>
-                    <a href="catalog.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                </div>
+    <div class="topbar">
+        <div class="container">
+            <div class="currency">
+                <label class="currency__label" for="currency__select">Currency : </label>
+                <select class="currency__select" id="currency__select">
+                    <option class="currency__option">GBP</option>
+                    <option class="currency__option">USD</option>
+                    <option class="currency__option">EUR</option>
+                </select>
+            </div>
+            <div class="registration">
+                <a href="registration.html">Register</a>
+                <a href="registration.html">Sign In</a>
+            </div>
+            <div class="shopcart">
+                <a href="catalog.html"> 
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    empty
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="adaptive-topbar">
+                <a href="registration.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="catalog.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>
         </div>
-        <div class="navbar catalog-intro">
-            <div class="logo">
-                <a href="index.html"><b>Avenue</b> Fashion</a>
-            </div>
+    </div>
+    <div class="navbar catalog-intro">
+        <div class="logo">
+            <a href="index.html"><b>Avenue</b> Fashion</a>
+        </div>
             <div class="container">
                 <nav class="navbar__navigation">
-                    <div class="navbar__burger">
+                    <div class="navbar__burger burger-catalog">
                         <span></span>
                     </div>
                     <ul class="navbar__list">    
                         <li class="navbar__item">
-                            <a href="">Mens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <a>Mens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <div class="dropdown">
                                 <div class="dropdown-inner">
                                     <ul class='dropdown-menu'>
                                         <div class="dropdown__title">casuals</div>
-                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
-                                        <li><a href='Product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
-                                        <li><a class='dropdown-menu__link'>Polo Shirts</a></li>
-                                        <li><a class='dropdown-menu__link'>Sportswear</a></li>
-                                        <li><a class='dropdown-menu__link'>Trousers & Chinos</a></li>
-                                        <li><a class='dropdown-menu__link'>T-Shirts</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Hoodies & Sweatshirts</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Polo Shirts</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Sportswear</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Trousers & Chinos</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>T-Shirts</a></li>
                                     </ul>
                                     <ul class='dropdown-menu'>
                                         <div class="dropdown__title">Formal</div>
-                                        <li><a class='dropdown-menu__link'>Jackets</a></li>
-                                        <li><a class='dropdown-menu__link'>Shirts</a></li>
-                                        <li><a class='dropdown-menu__link'>Suits</a></li>
-                                        <li><a class='dropdown-menu__link'>Trousers</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Jackets</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Shirts</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Suits</a></li>
+                                        <li><a href='product.html' class='dropdown-menu__link'>Trousers</a></li>
                                     </ul>
                                 </div>
                                 <div class="dropdown__discount">
@@ -77,10 +78,10 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="navbar__item"><a href="">Womens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-                        <li class="navbar__item"><a href="">The brand</a></li>
-                        <li class="navbar__item"><a href="product.html">Local stores</a></li>
-                        <li class="navbar__item"><a href="">Look book<br><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                        <li class="navbar__item"><a>Womens<br><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                        <li class="navbar__item"><a href="index.html">The brand</a></li>
+                        <li class="navbar__item"><a href="#">Local stores</a></li>
+                        <li class="navbar__item"><a>Look book<br><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                     </ul>
                 </nav>
             </div>
