@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #fff;
 }
 
 body {
@@ -242,7 +243,7 @@ a {
 }
 
 .navbar__burger.open-menu + .navbar__list {
-  display: block;
+  display: flex;
 }
 
 .navbar__burger.open-menu span {
