@@ -19,6 +19,9 @@
         background-color: #f8f8f8;
         border-radius: 8px;
     }
+    .items {
+        padding: 0 30px;
+    }
     .lookbook__list {
         gap: 0;
     }
