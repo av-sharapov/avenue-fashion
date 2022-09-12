@@ -266,8 +266,12 @@ a {
 
 .intro-button {
   position: absolute;
-  right: 12.7%;
-  top: 70%;
+  top: 700px;
+  right: 200px;
+}
+
+.intro-button-mobile {
+  display: none;
 }
 
 /*======================*/
