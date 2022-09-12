@@ -6,7 +6,8 @@
         height: 550px;
     }
     .intro-button {
-        top: 55%;
+        top: 450px;
+        right: calc(215px - 2vw);
     }
     .searchbox {
         right: unset;
@@ -19,7 +20,7 @@
         background-color: #f8f8f8;
         border-radius: 8px;
     }
-    .items {
+    .items-container {
         padding: 0 30px;
     }
     .lookbook__list {
@@ -38,10 +39,18 @@
 
     .logo,
     .searchbox,
-    .navbar__navigation {
+    .navbar__navigation,
+    .intro-button {
         display: flex;
         justify-content: center;
         position: relative;
+    }
+
+    .intro-button {
+        right: 0;
+        top: 0;
+        margin-top: 200px;
+        margin-left: 550px;
     }
 
     .navbar {
@@ -67,10 +76,6 @@
     .searchbox button {
         position: relative;
         margin-left: -30px;
-    }
-
-    .intro-button {
-        right: 12%;
     }
 
     .banner {
@@ -145,8 +150,8 @@
         height: 400px;
     }
     .intro-button {
-        top: 40%;
-        right: 12.5%;
+        margin-top: 100px;
+        margin-left: 350px;
     }
     .banner__title {
         font-size: 40px;
@@ -171,18 +176,21 @@
 }
 
 @media (max-width: 767.98px) {
+    .currency__label {
+        display: none;
+    }
     .catalog-intro {
         height: 340px;
     }
     .intro-button {
-        top: 33%;
-        right: 11%;
+        margin-top: 50px;
+        margin-left: 240px;
         font-size: 11px;
     }
     .navbar__navigation {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        flex-direction: row;
         position: relative;
     }
     .banner {
@@ -299,9 +307,6 @@
     .container {
         padding: 0;
     }
-    .currency__label {
-        display: none;
-    }
 
     .currency__select {
         font-size: 15px;
@@ -313,11 +318,15 @@
     }
 
     .intro-button {
-        top: 23%;
-        right: 10%;
+        display: none;
+    }   
+
+    .intro-button-mobile {
+        display: flex;
+        justify-content: center;
     }
 
-    .intro-button .button {
+    .intro-button-mobile .button {
         padding: 10px 15px;
         letter-spacing: 2px;
     }
@@ -374,6 +383,7 @@
     }
 
     .navbar__navigation {
+        flex-direction: row;
         justify-content: flex-end;
         height: 100%;
     }
