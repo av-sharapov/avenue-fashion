@@ -109,6 +109,7 @@ a {
   border: none;
   cursor: pointer;
   position: relative;
+  z-index: 1;
 }
 
 /*======================*/
