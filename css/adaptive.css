@@ -172,6 +172,12 @@
         right: 1%;
         font-size: 11px;
     }
+    .navbar__navigation {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+    }
     .banner {
         height: 230px;
         padding: 50px 0;
@@ -315,6 +321,10 @@
     .navbar {
         flex-direction: unset;
         justify-content: space-between;
+    }
+
+    .navbar__burger.open-menu + .navbar__list {
+        display: block;
     }
 
     .navbar__list {
