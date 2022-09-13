@@ -176,10 +176,14 @@ a {
 }
 
 .navbar__item:hover .dropdown {
-  visibility: visible;
   -webkit-transition: visibility 0.2s ease-out 0.2s;
   -o-transition: visibility 0.2s ease-out 0.2s;
   transition: visibility 0.2s ease-out 0.2s;
+  transform: scaleY(1);
+}
+
+.navbar__item:nth-of-type(5) .dropdown {
+  right: 0;
 }
 
 .navbar__navigation {
@@ -281,8 +285,8 @@ a {
 .dropdown {
   position: absolute;
   z-index: 3;
-  left: 0;
   top: 36px;
+  margin-left: -10px;
   width: calc(320px + 145 * ((100vw - 320px) / 1730));
   background-color: #f8f8f8;
   -webkit-box-shadow: 0px 17px 24px 0px rgba(0, 0, 0, 0.14);
@@ -295,8 +299,9 @@ a {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  visibility: hidden;
+  visibility:visible;
   cursor: default;
+  transform: scaleY(0);
 }
 
 .dropdown-inner {
