@@ -193,6 +193,9 @@
         justify-content: center;
         position: relative;
     }
+    .navbar__list {
+        justify-content: center;
+    }
     .banner {
         height: 230px;
         padding: 50px 0;
@@ -370,6 +373,8 @@
     .navbar__item {
         margin: 40px 0 40px 33px;
         font-size: 14px;
+        display: flex;
+        width:fit-content;
     }
 
     .searchbox {
@@ -398,6 +403,10 @@
 
     .dropdown {
         width: 100vw;
+        left: 0;
+        top: unset;
+        margin-top: 25px;
+        margin-left: 0;
     }
 
     .dropdown-inner {
