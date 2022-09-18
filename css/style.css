@@ -85,7 +85,6 @@ a {
 .adaptive-topbar {
   display: none;
   font-size: 25px;
-  z-index: 1;
 }
 
 .adaptive-topbar a {
